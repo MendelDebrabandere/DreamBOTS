@@ -1,0 +1,1771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../../../../ArtAssets/Audio/DreamBots_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../../ArtAssets/Audio/DreamBots_WwiseProject/.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../ArtAssets/Audio/DreamBots_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{7061412C-1B28-A539-456E-0FC6386CD542}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="351821732" Name="Gain (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gain (Custom)" GUID="{AFB83BE0-412E-4C7A-8566-C21F3B9AFA05}" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="466003022" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Meter (Custom)" GUID="{BCEA1373-874D-461B-A0F1-60ABF003F9CD}" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="912015640" Name="Compressor (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Compressor (Custom)" GUID="{819660BC-96D2-4FCB-8945-FB01567FE72B}" LibName="Wwise Compressor" LibId="7077891"/>
+				</Custom>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{11CB5215-7DF8-408F-8D21-43DA63501669}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{67CEE475-2053-43D6-8B7B-04D85E013527}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="694692527" Name="VFX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VFX" GUID="{71576C4C-C6B5-467F-A622-8A57845AF48B}"/>
+				<Bus Id="702482391" Name="Game" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Game" GUID="{14179D2E-2449-4D1E-BB8C-2DC16C2E0DA7}"/>
+				<Bus Id="1551306167" Name="UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI" GUID="{0218D856-5525-4677-B6FB-DBF7058EF2D6}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="351821732"/>
+							<PluginRef Id="466003022"/>
+							<PluginRef Id="912015640"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{3C125842-C733-429B-8D7E-7F0C0E576A36}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="619609672" Name="VFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\VFX_Volume" GUID="{847F0F2D-DC07-42C1-A15D-EAF76C86489C}"/>
+				<GameParameter Id="1104583892" Name="RTPC_Wasp_Agro" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Wasp_Agro" GUID="{A03EF9E7-17DF-4EA2-A452-328EF16CB24D}"/>
+				<GameParameter Id="1193280819" Name="RTPC_Load" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Load" GUID="{042359DA-BCD0-4C99-AEB1-15857579679D}"/>
+				<GameParameter Id="1916511250" Name="RTPC_Ball_velocity" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Ball_velocity" GUID="{C88C0E36-8BBC-43D9-835C-94B7B8252545}"/>
+				<GameParameter Id="2204949715" Name="RTPC_Talking_velocity" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Talking_velocity" GUID="{773D5F0F-A05C-45B9-9D35-A8CD675957AD}"/>
+				<GameParameter Id="2220945564" Name="RTPC_Trampoline_height" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Trampoline_height" GUID="{156951DB-8B73-4577-A120-E12EA7CE897B}"/>
+				<GameParameter Id="2420400255" Name="RTPC_Drone_speed" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Drone_speed" GUID="{959D4FE7-3A01-497E-8B2B-C18AC260388F}"/>
+				<GameParameter Id="3244594674" Name="RTPC_Ship_pitch" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Ship_pitch" GUID="{E5D4722F-C5D3-4F82-9E61-5ABCA9D110C9}"/>
+				<GameParameter Id="3710488410" Name="RTPC_Roll_speed" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Roll_speed" GUID="{77AEC944-2D0A-42A5-B6AC-7FA4F563F300}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3839992303" Name="GameStage" ObjectPath="\States\Default Work Unit\GameStage" GUID="{3EB7E491-84F6-4D8F-8D04-C59D0CCC36B8}">
+					<States>
+						<State Id="20886966" Name="Lego" ObjectPath="\States\Default Work Unit\GameStage\Lego" GUID="{D6AFB4AB-2928-4F0B-A2F7-1A72E4C01BA2}"/>
+						<State Id="666586255" Name="Kippie" ObjectPath="\States\Default Work Unit\GameStage\Kippie" GUID="{D856066F-CCC9-4774-B9B4-00E019BDCA0E}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameStage\None" GUID="{5B59FB39-C6FA-4DAA-8CEB-F7A039688E14}"/>
+						<State Id="758863303" Name="Money" ObjectPath="\States\Default Work Unit\GameStage\Money" GUID="{E458004C-74D4-46EA-890B-80D1EBA8DAA2}"/>
+						<State Id="1194846792" Name="Toyball" ObjectPath="\States\Default Work Unit\GameStage\Toyball" GUID="{DB0F5872-B0EC-47AB-B124-CC145B1F5E57}"/>
+						<State Id="1291433366" Name="Base" ObjectPath="\States\Default Work Unit\GameStage\Base" GUID="{B6903368-2953-47CB-82A0-E871BF29D9B7}"/>
+						<State Id="1334157877" Name="Clothing" ObjectPath="\States\Default Work Unit\GameStage\Clothing" GUID="{9F4F60B0-FBD4-4814-847A-AC1FDB9AA55F}"/>
+						<State Id="1795374432" Name="Cynematic" ObjectPath="\States\Default Work Unit\GameStage\Cynematic" GUID="{E259A3BA-55F9-4AB9-8382-54CB398ED142}"/>
+						<State Id="1857115720" Name="Wasp" ObjectPath="\States\Default Work Unit\GameStage\Wasp" GUID="{B360F294-765B-4F34-BDB3-B4CFDB1BF129}"/>
+						<State Id="3373695666" Name="Shooting" ObjectPath="\States\Default Work Unit\GameStage\Shooting" GUID="{48AB4B1C-1475-46F8-86CB-879DDA7E804A}"/>
+						<State Id="3411621852" Name="Cleaning" ObjectPath="\States\Default Work Unit\GameStage\Cleaning" GUID="{A1511B39-60EE-4949-83D6-4E12A1D396B6}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{5FECB6D8-8BF5-4CF5-AF30-6A4085E69110}">
+					<States>
+						<State Id="172549753" Name="Arcade2" ObjectPath="\States\Default Work Unit\Music\Arcade2" GUID="{21C4386D-830B-424F-8B4C-40E3DEDC27FC}"/>
+						<State Id="579523862" Name="Explore" ObjectPath="\States\Default Work Unit\Music\Explore" GUID="{30466D7B-183B-4324-BB82-3673551BAF55}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{F510D029-B2B2-47CB-B490-92FA03CEAD88}"/>
+						<State Id="1946377065" Name="Arcade" ObjectPath="\States\Default Work Unit\Music\Arcade" GUID="{91E25F15-098C-4325-967B-9AF416A726A0}"/>
+						<State Id="3041563226" Name="Silence" ObjectPath="\States\Default Work Unit\Music\Silence" GUID="{7434E803-486F-4858-A6DB-54C8C97F5CB0}"/>
+						<State Id="3373695666" Name="Shooting" ObjectPath="\States\Default Work Unit\Music\Shooting" GUID="{0EC21079-3D73-4569-AA93-DF95E192F329}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="489888880" Name="Switch_Physics_impact" ObjectPath="\Switches\Default Work Unit\Switch_Physics_impact" GUID="{C4A1A275-1692-42FC-B051-C6EDFD8624F9}">
+					<GameParameterRef Id="1916511250"/>
+					<Switches>
+						<Switch Id="670602561" Name="Soft" ObjectPath="\Switches\Default Work Unit\Switch_Physics_impact\Soft" GUID="{E745D8A2-3ACB-47FF-942A-CF1A935581D7}"/>
+						<Switch Id="2849147824" Name="Medium" ObjectPath="\Switches\Default Work Unit\Switch_Physics_impact\Medium" GUID="{03B48CD6-1870-4B49-9CBF-24DD4C0AA7A5}"/>
+						<Switch Id="3599861390" Name="Hard" ObjectPath="\Switches\Default Work Unit\Switch_Physics_impact\Hard" GUID="{15A21221-8A36-462A-895C-A0947F02E328}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{97063172-B573-496E-8654-E3997C6C44C2}">
+					<Switches>
+						<Switch Id="660835419" Name="Plastic" ObjectPath="\Switches\Default Work Unit\Surface\Plastic" GUID="{00C0D9F4-B54C-42EC-B3DA-4DDDFC5C6AE4}"/>
+						<Switch Id="2144363834" Name="Rock" ObjectPath="\Switches\Default Work Unit\Surface\Rock" GUID="{F3F695B1-9F65-48A2-9568-EBFED171563A}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Surface\Metal" GUID="{1C312548-5BC5-4005-8F15-E36BC90D073C}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surface\Grass" GUID="{5B55E8D1-A694-4921-9439-4D29310F34BF}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" GUID="{3D70D8EC-7307-439D-B7BE-D5E1729A8FAA}" Language="SFX" Hash="{02855915-BC1F-2F6A-19B0-037C6E9FAA93}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="520414" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Lego-006.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Lego-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="21415928" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Swap_stretchy.wav</ShortName>
+					<CachePath>SFX/SFX_Swap_stretchy_A818BD7A.wem</CachePath>
+				</File>
+				<File Id="22348095" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Vrago.wav</ShortName>
+					<CachePath>SFX/SFX_Vrago_075D82FA.wem</CachePath>
+				</File>
+				<File Id="26963495" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Tennis_hit_002.wav</ShortName>
+					<CachePath>SFX/SFX_Tennis_hit_002_B2151739.wem</CachePath>
+				</File>
+				<File Id="34723062" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Lego-001.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Lego-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="41616394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ball_physics_hard.wav</ShortName>
+					<CachePath>SFX/SFX_Ball_physics_hard_3D5F5E1A.wem</CachePath>
+				</File>
+				<File Id="43103157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Toyball_grab-003.wav</ShortName>
+					<CachePath>SFX/SFX_Toyball_grab-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="44212268" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Lego_place_001.wav</ShortName>
+					<CachePath>SFX/SFX_Lego_place_001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="56882208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Enter_drone.wav</ShortName>
+					<CachePath>SFX/SFX_Enter_drone_10C4C929.wem</CachePath>
+				</File>
+				<File Id="59266381" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_shoot_004.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_shoot_004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="60118245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Boat_engine-002.wav</ShortName>
+					<CachePath>SFX/SFX_Boat_engine-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="63050617" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_turn.wav</ShortName>
+					<CachePath>SFX/SFX_UI_turn_0653CDC7.wem</CachePath>
+				</File>
+				<File Id="64327636" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Rock-004.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Rock-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="67969978" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Grass-001.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Grass-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="68868388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_tail_002.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_tail_002_184CA77B.wem</CachePath>
+				</File>
+				<File Id="71041872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_ignite.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_ignite_6B141C2F.wem</CachePath>
+				</File>
+				<File Id="75555325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Carrot_eat-004.wav</ShortName>
+					<CachePath>SFX/SFX_Carrot_eat-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="78508112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_cluck_calm-001.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_cluck_calm-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="83356613" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_075D82FA.wem</CachePath>
+				</File>
+				<File Id="109879767" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Grass-002.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Grass-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="112293624" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_cluck_calm-005.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_cluck_calm-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="117141144" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Lego-008.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Lego-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="122158392" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Wasp_hit_001.wav</ShortName>
+					<CachePath>SFX/SFX_Wasp_hit_001_270565BC.wem</CachePath>
+				</File>
+				<File Id="134189582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Respawn_release.wav</ShortName>
+					<CachePath>SFX/SFX_Respawn_release_773877F8.wem</CachePath>
+				</File>
+				<File Id="135543277" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUS_Arcade_loop.wav</ShortName>
+					<CachePath>SFX/MUS_Arcade_loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="137855225" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Grass-006.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Grass-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="147992142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_De_leuker.wav</ShortName>
+					<CachePath>SFX/SFX_De_leuker_075D82FA.wem</CachePath>
+				</File>
+				<File Id="150188538" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Boat_horn-006.wav</ShortName>
+					<CachePath>SFX/SFX_Boat_horn-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="153232203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Boat_engine-001.wav</ShortName>
+					<CachePath>SFX/SFX_Boat_engine-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="156609434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Lego_place_002.wav</ShortName>
+					<CachePath>SFX/SFX_Lego_place_002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="157189565" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Jump-001.wav</ShortName>
+					<CachePath>SFX/SFX_Jump-001_A37C8002.wem</CachePath>
+				</File>
+				<File Id="161047946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_hover.wav</ShortName>
+					<CachePath>SFX/SFX_UI_hover_10C4C929.wem</CachePath>
+				</File>
+				<File Id="174310650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking-018.wav</ShortName>
+					<CachePath>SFX/SFX_Talking-018_615C7EE9.wem</CachePath>
+				</File>
+				<File Id="178610828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_fire.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_fire_51626EEE.wem</CachePath>
+				</File>
+				<File Id="183122095" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Poison_stream.wav</ShortName>
+					<CachePath>SFX/SFX_Poison_stream_C0E18CB4.wem</CachePath>
+				</File>
+				<File Id="183819173" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Color_swap_003.wav</ShortName>
+					<CachePath>SFX/SFX_Color_swap_003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="194284828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Carrot_rumble.wav</ShortName>
+					<CachePath>SFX/SFX_Carrot_rumble_A9F32891.wem</CachePath>
+				</File>
+				<File Id="196238000" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUS_Shoot_intro.wav</ShortName>
+					<CachePath>SFX/MUS_Shoot_intro_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="203272972" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Carrot_gulp.wav</ShortName>
+					<CachePath>SFX/SFX_Carrot_gulp_10C4C929.wem</CachePath>
+				</File>
+				<File Id="205089700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Swap_cooking.wav</ShortName>
+					<CachePath>SFX/SFX_Swap_cooking_03CF45C3.wem</CachePath>
+				</File>
+				<File Id="208094763" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Tennis_physics_med.wav</ShortName>
+					<CachePath>SFX/SFX_Tennis_physics_med_7622BF11.wem</CachePath>
+				</File>
+				<File Id="212828509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking-004.wav</ShortName>
+					<CachePath>SFX/SFX_Talking-004_615C7EE9.wem</CachePath>
+				</File>
+				<File Id="216871542" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Bridge_completed.wav</ShortName>
+					<CachePath>SFX/SFX_Bridge_completed_10C4C929.wem</CachePath>
+				</File>
+				<File Id="222543795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Drone_down.wav</ShortName>
+					<CachePath>SFX/SFX_Drone_down_AEDCD796.wem</CachePath>
+				</File>
+				<File Id="231278178" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Carrot_nom.wav</ShortName>
+					<CachePath>SFX/SFX_Carrot_nom_76923033.wem</CachePath>
+				</File>
+				<File Id="232508547" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Land-001.wav</ShortName>
+					<CachePath>SFX/SFX_Land-001_9CE0F5E5.wem</CachePath>
+				</File>
+				<File Id="253062284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CARTOON Boing Classic.wav</ShortName>
+					<CachePath>SFX/CARTOON Boing Classic_2F94FE9D.wem</CachePath>
+				</File>
+				<File Id="260233037" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_tail_003.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_tail_003_4D51AA0A.wem</CachePath>
+				</File>
+				<File Id="268195294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Rock-001.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Rock-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="268686685" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Roll-001.wav</ShortName>
+					<CachePath>SFX/SFX_Roll-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="269751003" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Metal-007.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Metal-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="287651579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Jump-003.wav</ShortName>
+					<CachePath>SFX/SFX_Jump-003_66EB0E9B.wem</CachePath>
+				</File>
+				<File Id="287799005" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_cluck-001.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_cluck-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="288955369" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking-006.wav</ShortName>
+					<CachePath>SFX/SFX_Talking-006_615C7EE9.wem</CachePath>
+				</File>
+				<File Id="290756339" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUS_Shoot_start.wav</ShortName>
+					<CachePath>SFX/MUS_Shoot_start_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="296304748" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUS_Arcade_loop.wav</ShortName>
+					<CachePath>SFX/MUS_Arcade_loop_EC1A7382.wem</CachePath>
+				</File>
+				<File Id="315860075" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Poison_stream.wav</ShortName>
+					<CachePath>SFX/SFX_Poison_stream_15A13F80.wem</CachePath>
+				</File>
+				<File Id="331895962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Drone_lego_pickup.wav</ShortName>
+					<CachePath>SFX/SFX_Drone_lego_pickup_740AD575.wem</CachePath>
+				</File>
+				<File Id="334915824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CARTOON Boing Classic.wav</ShortName>
+					<CachePath>SFX/CARTOON Boing Classic_A1611256.wem</CachePath>
+				</File>
+				<File Id="342518494" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Drone_base_low.wav</ShortName>
+					<CachePath>SFX/SFX_Drone_base_low_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="349535212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Lego_place_005.wav</ShortName>
+					<CachePath>SFX/SFX_Lego_place_005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="359262135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_bubble-003.wav</ShortName>
+					<CachePath>SFX/SFX_bubble-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="363823850" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Tape_pickup.wav</ShortName>
+					<CachePath>SFX/SFX_Tape_pickup_10C4C929.wem</CachePath>
+				</File>
+				<File Id="370080999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Respawn_down.wav</ShortName>
+					<CachePath>SFX/SFX_Respawn_down_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="383587010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_gear_004.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_gear_004_72138768.wem</CachePath>
+				</File>
+				<File Id="387952566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Drone_up.wav</ShortName>
+					<CachePath>SFX/SFX_Drone_up_4BA9F2F3.wem</CachePath>
+				</File>
+				<File Id="389764209" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Triangle.wav</ShortName>
+					<CachePath>SFX/SFX_Triangle_4F8A796A.wem</CachePath>
+				</File>
+				<File Id="391143317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Crane_hor_loop.wav</ShortName>
+					<CachePath>SFX/SFX_Crane_hor_loop_2F198AA0.wem</CachePath>
+				</File>
+				<File Id="393779724" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Color_idle_003.wav</ShortName>
+					<CachePath>SFX/SFX_Color_idle_003_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="395799149" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kleermakermachine.wav</ShortName>
+					<CachePath>SFX/SFX_Kleermakermachine_075D82FA.wem</CachePath>
+				</File>
+				<File Id="400713765" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_tail_001.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_tail_001_D89A29E8.wem</CachePath>
+				</File>
+				<File Id="401189357" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ball_hit_002.wav</ShortName>
+					<CachePath>SFX/SFX_Ball_hit_002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="404793959" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_bubble-002.wav</ShortName>
+					<CachePath>SFX/SFX_bubble-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="437693540" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Color_idle_004.wav</ShortName>
+					<CachePath>SFX/SFX_Color_idle_004_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="439709404" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Wasp_hit_002.wav</ShortName>
+					<CachePath>SFX/SFX_Wasp_hit_002_F8E80545.wem</CachePath>
+				</File>
+				<File Id="450233989" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Puck_physics_med.wav</ShortName>
+					<CachePath>SFX/SFX_Puck_physics_med_ACF26598.wem</CachePath>
+				</File>
+				<File Id="456591136" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Poison_stream.wav</ShortName>
+					<CachePath>SFX/SFX_Poison_stream_C75FF516.wem</CachePath>
+				</File>
+				<File Id="457331559" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Carrot_eat-005.wav</ShortName>
+					<CachePath>SFX/SFX_Carrot_eat-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="472605454" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_cluck-002.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_cluck-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="495596224" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Toyball_grab-002.wav</ShortName>
+					<CachePath>SFX/SFX_Toyball_grab-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="503250763" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking-005.wav</ShortName>
+					<CachePath>SFX/SFX_Talking-005_615C7EE9.wem</CachePath>
+				</File>
+				<File Id="506046241" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_tail_004.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_tail_004_3DCB3125.wem</CachePath>
+				</File>
+				<File Id="511466145" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Boat_horn-005.wav</ShortName>
+					<CachePath>SFX/SFX_Boat_horn-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="515558384" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Boat_horn-002.wav</ShortName>
+					<CachePath>SFX/SFX_Boat_horn-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="518993336" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Color_idle_001.wav</ShortName>
+					<CachePath>SFX/SFX_Color_idle_001_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="524742747" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Wasp_hit_004.wav</ShortName>
+					<CachePath>SFX/SFX_Wasp_hit_004_F9C5AD4A.wem</CachePath>
+				</File>
+				<File Id="526047353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Lego_place_004.wav</ShortName>
+					<CachePath>SFX/SFX_Lego_place_004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="526205157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking-014.wav</ShortName>
+					<CachePath>SFX/SFX_Talking-014_615C7EE9.wem</CachePath>
+				</File>
+				<File Id="531484813" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_shoot_001.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_shoot_001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="532594785" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Drone_tex_lego_001.wav</ShortName>
+					<CachePath>SFX/SFX_Drone_tex_lego_001_B286AC3C.wem</CachePath>
+				</File>
+				<File Id="545096201" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ball_physics_med.wav</ShortName>
+					<CachePath>SFX/SFX_Ball_physics_med_79BFE36C.wem</CachePath>
+				</File>
+				<File Id="546523606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Carrot_eat-003.wav</ShortName>
+					<CachePath>SFX/SFX_Carrot_eat-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="549753088" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Carrot_eat-002.wav</ShortName>
+					<CachePath>SFX/SFX_Carrot_eat-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="553443248" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Color_swap_002.wav</ShortName>
+					<CachePath>SFX/SFX_Color_swap_002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="557843813" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_cluck_calm-004.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_cluck_calm-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="560690223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Broom-002.wav</ShortName>
+					<CachePath>SFX/SFX_Broom-002_75D8DC19.wem</CachePath>
+				</File>
+				<File Id="564535713" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Vliegende_lego_bouwer.wav</ShortName>
+					<CachePath>SFX/SFX_Vliegende_lego_bouwer_075D82FA.wem</CachePath>
+				</File>
+				<File Id="566288651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking-011.wav</ShortName>
+					<CachePath>SFX/SFX_Talking-011_615C7EE9.wem</CachePath>
+				</File>
+				<File Id="566495113" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Color_idle_002.wav</ShortName>
+					<CachePath>SFX/SFX_Color_idle_002_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="566595908" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Exit_drone.wav</ShortName>
+					<CachePath>SFX/SFX_Exit_drone_10C4C929.wem</CachePath>
+				</File>
+				<File Id="572537769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_shoot_003.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_shoot_003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="579160524" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Grass-003.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Grass-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="583214710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Swap_cleaning.wav</ShortName>
+					<CachePath>SFX/SFX_Swap_cleaning_F37ED7F2.wem</CachePath>
+				</File>
+				<File Id="585660816" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_bubble-007.wav</ShortName>
+					<CachePath>SFX/SFX_bubble-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="594718133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Lego-003.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Lego-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="602708325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Metal-003.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Metal-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="606727442" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Lego-004.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Lego-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="606859229" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking-017.wav</ShortName>
+					<CachePath>SFX/SFX_Talking-017_615C7EE9.wem</CachePath>
+				</File>
+				<File Id="607742897" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Boat_engine-003.wav</ShortName>
+					<CachePath>SFX/SFX_Boat_engine-003_3356738B.wem</CachePath>
+				</File>
+				<File Id="608162862" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_bubble-006.wav</ShortName>
+					<CachePath>SFX/SFX_bubble-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="613471406" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_bubble-005.wav</ShortName>
+					<CachePath>SFX/SFX_bubble-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="621468507" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Roll_tex-001.wav</ShortName>
+					<CachePath>SFX/SFX_Roll_tex-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="630772079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Jump-002.wav</ShortName>
+					<CachePath>SFX/SFX_Jump-002_DB80D91A.wem</CachePath>
+				</File>
+				<File Id="636570061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_walk-002.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_walk-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="637791878" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Toyball_grab-001.wav</ShortName>
+					<CachePath>SFX/SFX_Toyball_grab-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="645562939" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUS_Arcade_intro.wav</ShortName>
+					<CachePath>SFX/MUS_Arcade_intro_EC1A7382.wem</CachePath>
+				</File>
+				<File Id="651862543" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Respawn_rise.wav</ShortName>
+					<CachePath>SFX/SFX_Respawn_rise_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="655748532" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_confirm.wav</ShortName>
+					<CachePath>SFX/SFX_UI_confirm_10C4C929.wem</CachePath>
+				</File>
+				<File Id="665751904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Grass-004.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Grass-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="670622573" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>SFX_Wasp_idle.wav</ShortName>
+					<Path>Media/670622573.wem</Path>
+					<CachePath>SFX/SFX_Wasp_idle_81238AE1.wem</CachePath>
+				</File>
+				<File Id="674588885" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CARTOON Boing Classic.wav</ShortName>
+					<CachePath>SFX/CARTOON Boing Classic_82C83E34.wem</CachePath>
+				</File>
+				<File Id="678766633" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_UI_cancel.wav</ShortName>
+					<CachePath>SFX/SFX_UI_cancel_10C4C929.wem</CachePath>
+				</File>
+				<File Id="685159639" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_De_alles_robot.wav</ShortName>
+					<CachePath>SFX/SFX_De_alles_robot_075D82FA.wem</CachePath>
+				</File>
+				<File Id="685628548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Roll_tex-002.wav</ShortName>
+					<CachePath>SFX/SFX_Roll_tex-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="694247898" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_cluck_calm-003.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_cluck_calm-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="699658809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUS_Shoot_loop.wav</ShortName>
+					<CachePath>SFX/MUS_Shoot_loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="701980602" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Magic_grijper.wav</ShortName>
+					<CachePath>SFX/SFX_Magic_grijper_075D82FA.wem</CachePath>
+				</File>
+				<File Id="704631604" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Swap_typing.wav</ShortName>
+					<CachePath>SFX/SFX_Swap_typing_5D705131.wem</CachePath>
+				</File>
+				<File Id="704665719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_walk-004.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_walk-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="710075248" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Lego_place_003.wav</ShortName>
+					<CachePath>SFX/SFX_Lego_place_003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="710719594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_bubble-001.wav</ShortName>
+					<CachePath>SFX/SFX_bubble-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="730320052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Respawn_grab.wav</ShortName>
+					<CachePath>SFX/SFX_Respawn_grab_10C4C929.wem</CachePath>
+				</File>
+				<File Id="739067550" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_tail_005.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_tail_005_F262356A.wem</CachePath>
+				</File>
+				<File Id="763212153" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Boat_fans.wav</ShortName>
+					<CachePath>SFX/SFX_Boat_fans_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="767680720" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_gear_003.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_gear_003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="767852032" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Vliegende_boot.wav</ShortName>
+					<CachePath>SFX/SFX_Vliegende_boot_075D82FA.wem</CachePath>
+				</File>
+				<File Id="768965606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Color_swap_001.wav</ShortName>
+					<CachePath>SFX/SFX_Color_swap_001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="771501670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_cluck-004.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_cluck-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="771955894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Drone_tex_lego_002.wav</ShortName>
+					<CachePath>SFX/SFX_Drone_tex_lego_002_B286AC3C.wem</CachePath>
+				</File>
+				<File Id="772050173" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUS_Explore_loop.wav</ShortName>
+					<CachePath>SFX/MUS_Explore_loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="772164554" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Broom-003.wav</ShortName>
+					<CachePath>SFX/SFX_Broom-003_12128341.wem</CachePath>
+				</File>
+				<File Id="779816403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUS_Explore_intro.wav</ShortName>
+					<CachePath>SFX/MUS_Explore_intro_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="783583800" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Drone_lego_carry.wav</ShortName>
+					<CachePath>SFX/SFX_Drone_lego_carry_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="795252094" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Matti123.wav</ShortName>
+					<CachePath>SFX/SFX_Matti123_075D82FA.wem</CachePath>
+				</File>
+				<File Id="820845712" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking-012.wav</ShortName>
+					<CachePath>SFX/SFX_Talking-012_615C7EE9.wem</CachePath>
+				</File>
+				<File Id="821395337" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Gelddrone.wav</ShortName>
+					<CachePath>SFX/SFX_Gelddrone_075D82FA.wem</CachePath>
+				</File>
+				<File Id="835815171" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Money_tex.wav</ShortName>
+					<CachePath>SFX/SFX_Money_tex_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="837266129" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Balmachine.wav</ShortName>
+					<CachePath>SFX/SFX_Balmachine_075D82FA.wem</CachePath>
+				</File>
+				<File Id="840360157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking-016.wav</ShortName>
+					<CachePath>SFX/SFX_Talking-016_615C7EE9.wem</CachePath>
+				</File>
+				<File Id="843176757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Snoepkraam.wav</ShortName>
+					<CachePath>SFX/SFX_Snoepkraam_075D82FA.wem</CachePath>
+				</File>
+				<File Id="844208652" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Taken_robot.wav</ShortName>
+					<CachePath>SFX/SFX_Taken_robot_075D82FA.wem</CachePath>
+				</File>
+				<File Id="850397031" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Poison_stream.wav</ShortName>
+					<CachePath>SFX/SFX_Poison_stream_AD1BB61F.wem</CachePath>
+				</File>
+				<File Id="852635358" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Boat_horn-003.wav</ShortName>
+					<CachePath>SFX/SFX_Boat_horn-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="857125493" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Carrot_eat-006.wav</ShortName>
+					<CachePath>SFX/SFX_Carrot_eat-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="857893171" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Wasp_hit_003.wav</ShortName>
+					<CachePath>SFX/SFX_Wasp_hit_003_89F53907.wem</CachePath>
+				</File>
+				<File Id="858478794" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Boat_horn-001.wav</ShortName>
+					<CachePath>SFX/SFX_Boat_horn-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="858828994" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Grass-005.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Grass-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="867597566" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Wind.wav</ShortName>
+					<Path>Media/867597566.wem</Path>
+					<CachePath>SFX/AMB_Wind_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="870106872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Eten_robot.wav</ShortName>
+					<CachePath>SFX/SFX_Eten_robot_075D82FA.wem</CachePath>
+				</File>
+				<File Id="871417737" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_walk-003.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_walk-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="875912986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Boat_horn-004.wav</ShortName>
+					<CachePath>SFX/SFX_Boat_horn-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="879010749" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Wesp_water_drone.wav</ShortName>
+					<CachePath>SFX/SFX_Wesp_water_drone_075D82FA.wem</CachePath>
+				</File>
+				<File Id="886383019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking-010.wav</ShortName>
+					<CachePath>SFX/SFX_Talking-010_615C7EE9.wem</CachePath>
+				</File>
+				<File Id="894650720" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_gear_001.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_gear_001_B0CAA163.wem</CachePath>
+				</File>
+				<File Id="895248908" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Rock-003.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Rock-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="895671324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_bubble-004.wav</ShortName>
+					<CachePath>SFX/SFX_bubble-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="914459098" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Color_idle_005.wav</ShortName>
+					<CachePath>SFX/SFX_Color_idle_005_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="926792393" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Rock-002.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Rock-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="933480913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Metal-002.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Metal-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="937017284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Poison_stream.wav</ShortName>
+					<CachePath>SFX/SFX_Poison_stream_1482181E.wem</CachePath>
+				</File>
+				<File Id="937689089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Drone_base_high.wav</ShortName>
+					<CachePath>SFX/SFX_Drone_base_high_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="944166915" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Puck_hit_002.wav</ShortName>
+					<CachePath>SFX/SFX_Puck_hit_002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="945344315" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Metal-004.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Metal-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="947796637" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Puck_physics_hard.wav</ShortName>
+					<CachePath>SFX/SFX_Puck_physics_hard_3E1FFFB8.wem</CachePath>
+				</File>
+				<File Id="947815338" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Color_idle_006.wav</ShortName>
+					<CachePath>SFX/SFX_Color_idle_006_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="949266702" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_cluck_calm-002.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_cluck_calm-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="955781829" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Lego-002.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Lego-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="957621036" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Carrot_eat-001.wav</ShortName>
+					<CachePath>SFX/SFX_Carrot_eat-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="972453008" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Lego-007.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Lego-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="986690011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_gear_002.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_gear_002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="986785254" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking-007.wav</ShortName>
+					<CachePath>SFX/SFX_Talking-007_615C7EE9.wem</CachePath>
+				</File>
+				<File Id="993643364" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Konijnetenmachine.wav</ShortName>
+					<CachePath>SFX/SFX_Konijnetenmachine_075D82FA.wem</CachePath>
+				</File>
+				<File Id="995088025" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Lego-005.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Lego-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="997283624" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Puck_hit_001.wav</ShortName>
+					<CachePath>SFX/SFX_Puck_hit_001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1000488986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Tennis_physics_hard.wav</ShortName>
+					<CachePath>SFX/SFX_Tennis_physics_hard_4881EAE8.wem</CachePath>
+				</File>
+				<File Id="1006248774" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Swap_cooking.wav</ShortName>
+					<CachePath>SFX/SFX_Swap_cooking_2EA7685F.wem</CachePath>
+				</File>
+				<File Id="1012947416" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking_fly.wav</ShortName>
+					<CachePath>SFX/SFX_Talking_fly_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1015368898" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ball_hit_001.wav</ShortName>
+					<CachePath>SFX/SFX_Ball_hit_001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1031108474" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Tennis_hit_001.wav</ShortName>
+					<CachePath>SFX/SFX_Tennis_hit_001_25889FC6.wem</CachePath>
+				</File>
+				<File Id="1031381071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Metal-006.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Metal-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1035158577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Ballmachine_shoot_002.wav</ShortName>
+					<CachePath>SFX/SFX_Ballmachine_shoot_002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1039895990" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_walk-001.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_walk-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1049642587" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Talking-008.wav</ShortName>
+					<CachePath>SFX/SFX_Talking-008_615C7EE9.wem</CachePath>
+				</File>
+				<File Id="1050455988" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_fast.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_fast_280C40FF.wem</CachePath>
+				</File>
+				<File Id="1052215856" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Broom-001.wav</ShortName>
+					<CachePath>SFX/SFX_Broom-001_C529ED51.wem</CachePath>
+				</File>
+				<File Id="1054157072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_FS_Metal-005.wav</ShortName>
+					<CachePath>SFX/SFX_FS_Metal-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1062432846" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Toy_ball_rise.wav</ShortName>
+					<CachePath>SFX/SFX_Toy_ball_rise_B5602070.wem</CachePath>
+				</File>
+				<File Id="1070756604" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Poison_stream.wav</ShortName>
+					<CachePath>SFX/SFX_Poison_stream_E24FB14A.wem</CachePath>
+				</File>
+				<File Id="1072019149" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Kippie_cluck-003.wav</ShortName>
+					<CachePath>SFX/SFX_Kippie_cluck-003_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="63324001" Name="Compressor (Custom)" ObjectPath="\Interactive Music Hierarchy\Default Work Unit\Music\Shoot\MUS_Shoot_intro\Compressor (Custom)" GUID="{A580EB90-A9CF-42FB-8087-22FC244F3101}" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="600781113" Name="Meter (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Default Work Unit\Tapes\Meter (Custom)" GUID="{4C193981-0108-45E0-8096-CDE136714966}" LibName="Wwise Meter" LibId="8454147"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="1613397533" Name="TS_Base_drone" ObjectPath="\Effects\Default Work Unit\TS_Base_drone" GUID="{DA5E433A-5448-4F98-9DAB-51CC33691891}" LibName="Wwise Time Stretch" LibId="8519683"/>
+					<Plugin Id="4110262149" Name="TS_Lego_drone" ObjectPath="\Effects\Default Work Unit\TS_Lego_drone" GUID="{A2591465-6066-4596-A1CA-6AD4FD085272}" LibName="Wwise Time Stretch" LibId="8519683"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="2048189093" Name="WE_Amb_wind" ObjectPath="\Events\Default Work Unit\Ambience\WE_Amb_wind" GUID="{8BAD9BDE-ECA6-4F26-9208-3746EA461BDE}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="867597566"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3006309885" Name="WE_Ball_hit" ObjectPath="\Events\Default Work Unit\Ballmachine\WE_Ball_hit" GUID="{E2EEB88D-65D2-406F-93EC-7E558E69C380}" MaxAttenuation="18000" DurationType="OneShot" DurationMin="1.1712625" DurationMax="1.6099529">
+					<MediaRefs>
+						<MediaRef Id="401189357"/>
+						<MediaRef Id="1015368898"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3047637397" Name="WE_Ball_physics" ObjectPath="\Events\Default Work Unit\Ballmachine\WE_Ball_physics" GUID="{80B21EF9-D97A-4152-A1B4-38842A777749}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.405246" DurationMax="2.39163">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="489888880" Id="3599861390" GUID="{15A21221-8A36-462A-895C-A0947F02E328}"/>
+							<MediaRefs>
+								<MediaRef Id="41616394"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="489888880" Id="2849147824" GUID="{03B48CD6-1870-4B49-9CBF-24DD4C0AA7A5}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="545096201"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="342690632" Name="WE_Ball_tail" ObjectPath="\Events\Default Work Unit\Ballmachine\WE_Ball_tail" GUID="{AE65BF95-BD6F-4B28-A165-8269466A4668}" MaxAttenuation="1100" DurationType="OneShot" DurationMin="3.775475" DurationMax="8.079742">
+					<MediaRefs>
+						<MediaRef Id="68868388"/>
+						<MediaRef Id="260233037"/>
+						<MediaRef Id="400713765"/>
+						<MediaRef Id="506046241"/>
+						<MediaRef Id="739067550"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="16354262" Name="WE_Ballmachine_move" ObjectPath="\Events\Default Work Unit\Ballmachine\WE_Ballmachine_move" GUID="{4A35AB0B-DF43-4278-9608-93CDD607C24A}" MaxAttenuation="18000" DurationType="OneShot" DurationMin="1.2375199" DurationMax="1.483439">
+					<MediaRefs>
+						<MediaRef Id="383587010"/>
+						<MediaRef Id="767680720"/>
+						<MediaRef Id="894650720"/>
+						<MediaRef Id="986690011"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1409502642" Name="WE_Ballmachine_shoot" ObjectPath="\Events\Default Work Unit\Ballmachine\WE_Ballmachine_shoot" GUID="{8087145B-43D5-4F1D-ABF9-A7AD8D2BF893}" MaxAttenuation="18000" DurationType="OneShot" DurationMin="1.0475878" DurationMax="1.4758322">
+					<MediaRefs>
+						<MediaRef Id="59266381"/>
+						<MediaRef Id="531484813"/>
+						<MediaRef Id="572537769"/>
+						<MediaRef Id="1035158577"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1234489145" Name="WE_Bridge_completed" ObjectPath="\Events\Default Work Unit\Drone\WE_Bridge_completed" GUID="{11660E20-C9E9-4F03-BCCA-1F243F9068AB}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="1.2159584" DurationMax="1.2159584">
+					<MediaRefs>
+						<MediaRef Id="216871542"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2842915823" Name="WE_Bunny_eat" ObjectPath="\Events\Default Work Unit\Bunny\WE_Bunny_eat" GUID="{1941F6A6-A5CB-4C74-AB11-EA3875451087}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="0.45640516" DurationMax="0.92400897">
+					<MediaRefs>
+						<MediaRef Id="75555325"/>
+						<MediaRef Id="231278178"/>
+						<MediaRef Id="457331559"/>
+						<MediaRef Id="546523606"/>
+						<MediaRef Id="549753088"/>
+						<MediaRef Id="857125493"/>
+						<MediaRef Id="957621036"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2361163287" Name="WE_Bunny_gulp" ObjectPath="\Events\Default Work Unit\Bunny\WE_Bunny_gulp" GUID="{7179DE1E-418A-4C89-BE04-50F90682283D}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="1.0132276" DurationMax="1.1774168">
+					<MediaRefs>
+						<MediaRef Id="203272972"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1208659872" Name="WE_Carrot_start_rumble" ObjectPath="\Events\Default Work Unit\Bunny\WE_Carrot_start_rumble" GUID="{75198138-5F55-4009-8150-3205D4E1D625}" MaxAttenuation="1000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="194284828"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3577725316" Name="WE_Carrot_stop_rumble" ObjectPath="\Events\Default Work Unit\Bunny\WE_Carrot_stop_rumble" GUID="{D8A38ABF-BA85-48A4-B6BF-5F6FBF9A5018}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2290526001" Name="WE_Color_swap" ObjectPath="\Events\Default Work Unit\Clothesmachine\WE_Color_swap" GUID="{C3AEB3B1-BFA4-4004-A3DD-70098346DA42}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="1.9528333" DurationMax="2.1261458">
+					<MediaRefs>
+						<MediaRef Id="183819173"/>
+						<MediaRef Id="553443248"/>
+						<MediaRef Id="768965606"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3558182556" Name="WE_Crane_grab" ObjectPath="\Events\Default Work Unit\Crane\WE_Crane_grab" GUID="{9F0BCE2D-1347-4440-856B-00A534FF8E4B}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="391143317"/>
+						<MediaRef Id="651862543"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="739567632" Name="WE_Crane_top_reached" ObjectPath="\Events\Default Work Unit\Crane\WE_Crane_top_reached" GUID="{14146A2E-39A1-44C2-906D-9EDBF799172B}"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="603528669" Name="WE_Crane_release" ObjectPath="\Events\Default Work Unit\Crane\WE_Crane_release" GUID="{03E935AC-D53D-4A21-A631-48C68208BFA0}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="739567632" Name="WE_Crane_top_reached" ObjectPath="\Events\Default Work Unit\Crane\WE_Crane_top_reached" GUID="{14146A2E-39A1-44C2-906D-9EDBF799172B}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="2.6574802" DurationMax="2.6574802">
+					<MediaRefs>
+						<MediaRef Id="389764209"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3656151913" Name="WE_Drone_down" ObjectPath="\Events\Default Work Unit\Respawn\WE_Drone_down" GUID="{E761664E-70E8-426C-97F9-6853F3F24D54}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0.38487905" DurationMax="0.38487905">
+					<MediaRefs>
+						<MediaRef Id="222543795"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2701525353" Name="WE_Drone_enter" ObjectPath="\Events\Default Work Unit\Drone\WE_Drone_enter" GUID="{B48CB0D0-E863-40B1-A373-E5A2AD792CF1}" DurationType="OneShot" DurationMin="1.0008541" DurationMax="1.0008541">
+					<MediaRefs>
+						<MediaRef Id="56882208"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1402463813" Name="WE_Drone_exit" ObjectPath="\Events\Default Work Unit\Drone\WE_Drone_exit" GUID="{C3796AB4-80C5-41B9-AEB5-B2AC01321539}" DurationType="OneShot" DurationMin="1.124" DurationMax="1.124">
+					<MediaRefs>
+						<MediaRef Id="566595908"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4263870435" Name="WE_Drone_pickup_lego" ObjectPath="\Events\Default Work Unit\Drone\WE_Drone_pickup_lego" GUID="{281B297B-A414-4BAC-B60B-9591F12343AE}" MaxAttenuation="5000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="331895962"/>
+						<MediaRef Id="783583800"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4268169660" Name="WE_Drone_release_lego" ObjectPath="\Events\Default Work Unit\Drone\WE_Drone_release_lego" GUID="{29198842-1F5C-46C2-85CD-711150D6DCE5}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3652637870" Name="WE_Drone_up" ObjectPath="\Events\Default Work Unit\Respawn\WE_Drone_up" GUID="{2FC0CC51-BB87-465E-ADCF-F694AD794908}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0.34228998" DurationMax="0.34228998">
+					<MediaRefs>
+						<MediaRef Id="387952566"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1909670570" Name="WE_Footstep" ObjectPath="\Events\Default Work Unit\Character\WE_Footstep" GUID="{918A4A00-D6BD-4DC5-A79C-C40565D30688}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="0.24303252" DurationMax="0.5270289">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2473969246" GUID="{1C312548-5BC5-4005-8F15-E36BC90D073C}"/>
+							<MediaRefs>
+								<MediaRef Id="269751003"/>
+								<MediaRef Id="602708325"/>
+								<MediaRef Id="933480913"/>
+								<MediaRef Id="945344315"/>
+								<MediaRef Id="1031381071"/>
+								<MediaRef Id="1054157072"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2144363834" GUID="{F3F695B1-9F65-48A2-9568-EBFED171563A}"/>
+							<MediaRefs>
+								<MediaRef Id="64327636"/>
+								<MediaRef Id="268195294"/>
+								<MediaRef Id="895248908"/>
+								<MediaRef Id="926792393"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="4248645337" GUID="{5B55E8D1-A694-4921-9439-4D29310F34BF}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="67969978"/>
+								<MediaRef Id="109879767"/>
+								<MediaRef Id="137855225"/>
+								<MediaRef Id="579160524"/>
+								<MediaRef Id="665751904"/>
+								<MediaRef Id="858828994"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="660835419" GUID="{00C0D9F4-B54C-42EC-B3DA-4DDDFC5C6AE4}"/>
+							<MediaRefs>
+								<MediaRef Id="520414"/>
+								<MediaRef Id="34723062"/>
+								<MediaRef Id="117141144"/>
+								<MediaRef Id="594718133"/>
+								<MediaRef Id="606727442"/>
+								<MediaRef Id="955781829"/>
+								<MediaRef Id="972453008"/>
+								<MediaRef Id="995088025"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="688518834" Name="WE_Gear_idle" ObjectPath="\Events\Default Work Unit\Clothesmachine\WE_Gear_idle" GUID="{38F7852F-C4A3-4DCA-8D1B-F68B78259194}" MaxAttenuation="3650" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="518993336"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1683743676" Name="WE_Jump" ObjectPath="\Events\Default Work Unit\Character\WE_Jump" GUID="{B20C18E2-EAE8-4447-BD85-57BB9530DEF8}" DurationType="OneShot" DurationMin="0.42470172" DurationMax="0.5441849">
+					<MediaRefs>
+						<MediaRef Id="157189565"/>
+						<MediaRef Id="287651579"/>
+						<MediaRef Id="630772079"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2407131287" Name="WE_Kippie_footstep" ObjectPath="\Events\Default Work Unit\Kippie\WE_Kippie_footstep" GUID="{8DB15A57-313B-4C28-A7D3-37D10E1CE1A9}" MaxAttenuation="1750" DurationType="OneShot" DurationMin="0.24549174" DurationMax="0.28903973">
+					<MediaRefs>
+						<MediaRef Id="636570061"/>
+						<MediaRef Id="704665719"/>
+						<MediaRef Id="871417737"/>
+						<MediaRef Id="1039895990"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2417947163" Name="WE_Kippie_ignite" ObjectPath="\Events\Default Work Unit\Kippie\WE_Kippie_ignite" GUID="{A7254C89-983B-461A-B8B4-D0D879B6BE44}" MaxAttenuation="1750" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="71041872"/>
+						<MediaRef Id="178610828"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1659409695" Name="WE_Land" ObjectPath="\Events\Default Work Unit\Character\WE_Land" GUID="{E7AF045F-38FF-4734-B08E-198EDE55296F}" DurationType="OneShot" DurationMin="0.29303253" DurationMax="0.57702893">
+					<MediaRefs>
+						<MediaRef Id="232508547"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2473969246" GUID="{1C312548-5BC5-4005-8F15-E36BC90D073C}"/>
+							<MediaRefs>
+								<MediaRef Id="269751003"/>
+								<MediaRef Id="602708325"/>
+								<MediaRef Id="933480913"/>
+								<MediaRef Id="945344315"/>
+								<MediaRef Id="1031381071"/>
+								<MediaRef Id="1054157072"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2144363834" GUID="{F3F695B1-9F65-48A2-9568-EBFED171563A}"/>
+							<MediaRefs>
+								<MediaRef Id="64327636"/>
+								<MediaRef Id="268195294"/>
+								<MediaRef Id="895248908"/>
+								<MediaRef Id="926792393"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="4248645337" GUID="{5B55E8D1-A694-4921-9439-4D29310F34BF}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="67969978"/>
+								<MediaRef Id="109879767"/>
+								<MediaRef Id="137855225"/>
+								<MediaRef Id="579160524"/>
+								<MediaRef Id="665751904"/>
+								<MediaRef Id="858828994"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="660835419" GUID="{00C0D9F4-B54C-42EC-B3DA-4DDDFC5C6AE4}"/>
+							<MediaRefs>
+								<MediaRef Id="520414"/>
+								<MediaRef Id="34723062"/>
+								<MediaRef Id="117141144"/>
+								<MediaRef Id="594718133"/>
+								<MediaRef Id="606727442"/>
+								<MediaRef Id="955781829"/>
+								<MediaRef Id="972453008"/>
+								<MediaRef Id="995088025"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3622078976" Name="WE_Land_head" ObjectPath="\Events\Default Work Unit\Character\WE_Land_head" GUID="{467684CC-7D4B-4F67-994A-EE5B66559089}" DurationType="OneShot" DurationMin="0.29303253" DurationMax="0.39494476">
+					<MediaRefs>
+						<MediaRef Id="232508547"/>
+						<MediaRef Id="269751003"/>
+						<MediaRef Id="602708325"/>
+						<MediaRef Id="933480913"/>
+						<MediaRef Id="945344315"/>
+						<MediaRef Id="1031381071"/>
+						<MediaRef Id="1054157072"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3856051321" Name="WE_Lego_drone_start" ObjectPath="\Events\Default Work Unit\Drone\WE_Lego_drone_start" GUID="{6664CD68-282B-4CC6-ACA8-C629C0F5C8E1}" MaxAttenuation="2000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="342518494"/>
+						<MediaRef Id="532594785"/>
+						<MediaRef Id="771955894"/>
+						<MediaRef Id="937689089"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1613397533"/>
+							<PluginRef Id="4110262149"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2845411795" Name="WE_Lego_drone_stop" ObjectPath="\Events\Default Work Unit\Drone\WE_Lego_drone_stop" GUID="{AE458F69-8AF0-4D88-A785-80042B5ABF0B}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3885932023" Name="WE_Lego_place" ObjectPath="\Events\Default Work Unit\Drone\WE_Lego_place" GUID="{615F4606-463C-450B-B7C7-871F0C07EEBE}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="0.3213335" DurationMax="0.5607709">
+					<MediaRefs>
+						<MediaRef Id="44212268"/>
+						<MediaRef Id="156609434"/>
+						<MediaRef Id="349535212"/>
+						<MediaRef Id="526047353"/>
+						<MediaRef Id="710075248"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="722449913" Name="WE_Music" ObjectPath="\Events\Default Work Unit\WE_Music" GUID="{E31DBD05-E0F1-4D39-ABE8-50B2B4B6A852}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="0" GUID="{5FECB6D8-8BF5-4CF5-AF30-6A4085E69110}"/>
+							<MediaRefs>
+								<MediaRef Id="772050173"/>
+								<MediaRef Id="779816403"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="579523862" GUID="{30466D7B-183B-4324-BB82-3673551BAF55}"/>
+							<MediaRefs>
+								<MediaRef Id="772050173"/>
+								<MediaRef Id="779816403"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="3373695666" GUID="{0EC21079-3D73-4569-AA93-DF95E192F329}"/>
+							<MediaRefs>
+								<MediaRef Id="196238000"/>
+								<MediaRef Id="290756339"/>
+								<MediaRef Id="699658809"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="63324001"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1946377065" GUID="{91E25F15-098C-4325-967B-9AF416A726A0}"/>
+							<MediaRefs>
+								<MediaRef Id="296304748"/>
+								<MediaRef Id="645562939"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="172549753" GUID="{21C4386D-830B-424F-8B4C-40E3DEDC27FC}"/>
+							<MediaRefs>
+								<MediaRef Id="135543277"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1998970018" Name="WE_Play_color_1" ObjectPath="\Events\Default Work Unit\Clothesmachine\Idle\WE_Play_color_1" GUID="{010EE244-74A3-4742-BA7D-C47DE25B0FC9}" MaxAttenuation="1300" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="518993336"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1998970017" Name="WE_Play_color_2" ObjectPath="\Events\Default Work Unit\Clothesmachine\Idle\WE_Play_color_2" GUID="{6736F89B-5992-4560-B805-9E0CA3E51371}" MaxAttenuation="1300" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="566495113"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1998970016" Name="WE_Play_color_3" ObjectPath="\Events\Default Work Unit\Clothesmachine\Idle\WE_Play_color_3" GUID="{A00A6D71-DFD3-4907-A5EB-01C5C8893A81}" MaxAttenuation="1300" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="393779724"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1998970023" Name="WE_Play_color_4" ObjectPath="\Events\Default Work Unit\Clothesmachine\Idle\WE_Play_color_4" GUID="{0B109FE0-7704-4689-8750-46D1D94F0B19}" MaxAttenuation="1300" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="437693540"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1998970022" Name="WE_Play_color_5" ObjectPath="\Events\Default Work Unit\Clothesmachine\Idle\WE_Play_color_5" GUID="{493201D7-5C8F-4373-84AD-DD7F7CDA7E88}" MaxAttenuation="1300" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="914459098"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1998970021" Name="WE_Play_color_6" ObjectPath="\Events\Default Work Unit\Clothesmachine\Idle\WE_Play_color_6" GUID="{76F620FD-FDC3-4B52-9078-709B6F984C49}" MaxAttenuation="1300" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="947815338"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="599905013" Name="WE_Puck_hit" ObjectPath="\Events\Default Work Unit\Ballmachine\WE_Puck_hit" GUID="{D48C9272-ECB1-4381-8756-9832F0E69964}" MaxAttenuation="18000" DurationType="OneShot" DurationMin="1.0900311" DurationMax="1.7093256">
+					<MediaRefs>
+						<MediaRef Id="944166915"/>
+						<MediaRef Id="997283624"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2126765693" Name="WE_Puck_physics" ObjectPath="\Events\Default Work Unit\Ballmachine\WE_Puck_physics" GUID="{84796631-5830-4AD1-AFB3-934D4D3730F7}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.22232187" DurationMax="0.3725485">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="489888880" Id="3599861390" GUID="{15A21221-8A36-462A-895C-A0947F02E328}"/>
+							<MediaRefs>
+								<MediaRef Id="947796637"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="489888880" Id="2849147824" GUID="{03B48CD6-1870-4B49-9CBF-24DD4C0AA7A5}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="450233989"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1072435529" Name="WE_Respawn_grounded" ObjectPath="\Events\Default Work Unit\Respawn\WE_Respawn_grounded" GUID="{C9C8FC31-5067-47EC-B398-0B2A635AC85C}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3132739051" Name="WE_Respawn_pickup" ObjectPath="\Events\Default Work Unit\Respawn\WE_Respawn_pickup" GUID="{37FB9810-147F-4925-9DF7-0ABF27E71C87}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="342518494"/>
+						<MediaRef Id="651862543"/>
+						<MediaRef Id="730320052"/>
+						<MediaRef Id="937689089"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1613397533"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="4244940430" Name="WE_Respawn_release" ObjectPath="\Events\Default Work Unit\Respawn\WE_Respawn_release" GUID="{171EFD17-83CD-4E24-8300-FD929B6E3090}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="370080999"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3652637870" Name="WE_Drone_up" ObjectPath="\Events\Default Work Unit\Respawn\WE_Drone_up" GUID="{2FC0CC51-BB87-465E-ADCF-F694AD794908}"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3785375523" Name="WE_Respawn_top_reached" ObjectPath="\Events\Default Work Unit\Respawn\WE_Respawn_top_reached" GUID="{8B685BEB-50E5-4EFE-8B9C-595124F5A60B}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="3.42044" DurationMax="3.42044">
+					<MediaRefs>
+						<MediaRef Id="134189582"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3362395299" Name="WE_Slow_roll" ObjectPath="\Events\Default Work Unit\UI\Roll\WE_Slow_roll" GUID="{418D83CD-33B2-4CE5-A9D3-BF1991DAA26B}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2706936573" Name="WE_Start_boat" ObjectPath="\Events\Default Work Unit\Environment\Boat\WE_Start_boat" GUID="{55B8E23C-AA90-4AE5-BE72-46594F41645E}" MaxAttenuation="10000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="60118245"/>
+						<MediaRef Id="150188538"/>
+						<MediaRef Id="153232203"/>
+						<MediaRef Id="511466145"/>
+						<MediaRef Id="515558384"/>
+						<MediaRef Id="607742897"/>
+						<MediaRef Id="763212153"/>
+						<MediaRef Id="852635358"/>
+						<MediaRef Id="858478794"/>
+						<MediaRef Id="875912986"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3537521490" Name="WE_Start_broom" ObjectPath="\Events\Default Work Unit\Character\Cleaning\WE_Start_broom" GUID="{F7F009AC-44B7-43E0-8485-C0C3B2AD0B4D}" MaxAttenuation="675" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="560690223"/>
+						<MediaRef Id="772164554"/>
+						<MediaRef Id="1052215856"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2701196802" Name="WE_Start_cleaning" ObjectPath="\Events\Default Work Unit\Character\Cleaning\WE_Start_cleaning" GUID="{AEC8F422-373C-4D26-9534-7BEA0FB83F32}" MaxAttenuation="675" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="359262135"/>
+						<MediaRef Id="404793959"/>
+						<MediaRef Id="585660816"/>
+						<MediaRef Id="608162862"/>
+						<MediaRef Id="613471406"/>
+						<MediaRef Id="710719594"/>
+						<MediaRef Id="895671324"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="644377083" Name="WE_Start_clucking" ObjectPath="\Events\Default Work Unit\Kippie\WE_Start_clucking" GUID="{8D01293E-2148-497D-8E36-3C1FA22355F5}" MaxAttenuation="1750" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="78508112"/>
+						<MediaRef Id="112293624"/>
+						<MediaRef Id="287799005"/>
+						<MediaRef Id="472605454"/>
+						<MediaRef Id="557843813"/>
+						<MediaRef Id="694247898"/>
+						<MediaRef Id="771501670"/>
+						<MediaRef Id="949266702"/>
+						<MediaRef Id="1072019149"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="19821634" Name="WE_Start_fast_kippie" ObjectPath="\Events\Default Work Unit\Kippie\WE_Start_fast_kippie" GUID="{94D2808B-0F9A-4CFE-A0D5-23AF442B59C0}" MaxAttenuation="1750" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1050455988"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1870274490" Name="WE_Start_money_drone" ObjectPath="\Events\Default Work Unit\Environment\Drone\WE_Start_money_drone" GUID="{BB050754-046D-4987-AC68-E3548AAEB16F}" MaxAttenuation="2900" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="342518494"/>
+						<MediaRef Id="835815171"/>
+						<MediaRef Id="937689089"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1613397533"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3165665990" Name="WE_Start_roll" ObjectPath="\Events\Default Work Unit\UI\Roll\WE_Start_roll" GUID="{E04AB939-4441-4BD5-BC35-EBE656C0CF19}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="268686685"/>
+						<MediaRef Id="621468507"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3157715765" Name="WE_Start_roll_credits" ObjectPath="\Events\Default Work Unit\UI\Roll\WE_Start_roll_credits" GUID="{89D74EC1-C246-4B6C-8B7A-D1B30BA1D914}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="268686685"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="65922240" Name="WE_Start_roll_disapear" ObjectPath="\Events\Default Work Unit\UI\Roll\WE_Start_roll_disapear" GUID="{D74C2225-F98D-4DB4-82B9-1F19FDB1A914}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="268686685"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2770224783" Name="WE_Start_shooting_poison" ObjectPath="\Events\Default Work Unit\Drone\WE_Start_shooting_poison" GUID="{554156D5-4B86-4F7F-B9E4-F184D1D257B8}" MaxAttenuation="5000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="183122095"/>
+						<MediaRef Id="315860075"/>
+						<MediaRef Id="456591136"/>
+						<MediaRef Id="850397031"/>
+						<MediaRef Id="937017284"/>
+						<MediaRef Id="1070756604"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1572535807" Name="WE_Start_talking" ObjectPath="\Events\Default Work Unit\Talking\WE_Start_talking" GUID="{CE2C6A5F-7EE2-453F-9B8B-7B248FA256D5}" MaxAttenuation="3000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="174310650"/>
+						<MediaRef Id="212828509"/>
+						<MediaRef Id="288955369"/>
+						<MediaRef Id="503250763"/>
+						<MediaRef Id="526205157"/>
+						<MediaRef Id="566288651"/>
+						<MediaRef Id="606859229"/>
+						<MediaRef Id="820845712"/>
+						<MediaRef Id="840360157"/>
+						<MediaRef Id="886383019"/>
+						<MediaRef Id="986785254"/>
+						<MediaRef Id="1049642587"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2073862718" Name="WE_StartEndCinematic" ObjectPath="\Events\Default Work Unit\WE_StartEndCinematic" GUID="{C731180A-4CB1-4884-83B6-399220925922}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3991942870" Id="172549753" Name="Arcade2" ObjectPath="\States\Default Work Unit\Music\Arcade2" GUID="{21C4386D-830B-424F-8B4C-40E3DEDC27FC}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4149119793" Name="WE_Stop_boat" ObjectPath="\Events\Default Work Unit\Environment\Boat\WE_Stop_boat" GUID="{BA1B3B7E-852C-41F7-9ED6-FB7668C132E0}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3490435494" Name="WE_Stop_broom" ObjectPath="\Events\Default Work Unit\Character\Cleaning\WE_Stop_broom" GUID="{C74BEFFC-B03A-47FD-B39F-F023DC5D31D4}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3471633166" Name="WE_Stop_cleaning" ObjectPath="\Events\Default Work Unit\Character\Cleaning\WE_Stop_cleaning" GUID="{D77B448E-B104-433D-AAC2-8A89622FC39A}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3635691070" Name="WE_Stop_fast_kippie" ObjectPath="\Events\Default Work Unit\Kippie\WE_Stop_fast_kippie" GUID="{D1B8FCE7-3971-4093-89B2-71947C92BC95}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1294005474" Name="WE_Stop_roll" ObjectPath="\Events\Default Work Unit\UI\Roll\WE_Stop_roll" GUID="{4F5D1411-1970-405B-9917-EC5C15094301}" DurationType="OneShot" DurationMin="0.14660417" DurationMax="0.14660417">
+					<MediaRefs>
+						<MediaRef Id="685628548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4078799910" Name="WE_Stop_roll_silent" ObjectPath="\Events\Default Work Unit\UI\Roll\WE_Stop_roll_silent" GUID="{1BA86CDC-7344-45C0-A7B6-F51D05C8C452}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1889633763" Name="WE_Stop_shooting_poison" ObjectPath="\Events\Default Work Unit\Drone\WE_Stop_shooting_poison" GUID="{E64F4F7C-8C88-45F5-9E00-C85F25BE3558}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2975211723" Name="WE_Stop_talking" ObjectPath="\Events\Default Work Unit\Talking\WE_Stop_talking" GUID="{8E26FC9D-6952-4119-BA4A-A7E78216C97E}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1552681449" Name="WE_Swap_cleaning" ObjectPath="\Events\Default Work Unit\Character\Swap\WE_Swap_cleaning" GUID="{2A477673-32E3-4DB9-B0E6-A727E0AD8140}" DurationType="OneShot" DurationMin="3.080979" DurationMax="3.080979">
+					<MediaRefs>
+						<MediaRef Id="583214710"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2126791352" Name="WE_Swap_cooking" ObjectPath="\Events\Default Work Unit\Character\Swap\WE_Swap_cooking" GUID="{8BC48972-2913-4C06-A351-4BAB2BA935FD}" DurationType="OneShot" DurationMin="3.4115834" DurationMax="3.4115834">
+					<MediaRefs>
+						<MediaRef Id="1006248774"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1852670643" Name="WE_Swap_nothing" ObjectPath="\Events\Default Work Unit\Character\Swap\WE_Swap_nothing" GUID="{159DA943-2AAC-406D-8B85-BC7B50F0916E}" DurationType="OneShot" DurationMin="0.7566373" DurationMax="0.7566373">
+					<MediaRefs>
+						<MediaRef Id="205089700"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="711766432" Name="WE_Swap_stretchy" ObjectPath="\Events\Default Work Unit\Character\Swap\WE_Swap_stretchy" GUID="{F7C96205-C985-434A-AC52-768A6B5B2DFF}" DurationType="OneShot" DurationMin="3.5515833" DurationMax="3.5515833">
+					<MediaRefs>
+						<MediaRef Id="21415928"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2279293277" Name="WE_Swap_typing" ObjectPath="\Events\Default Work Unit\Character\Swap\WE_Swap_typing" GUID="{EC3CA556-A984-4EFE-BDA8-E3B41FFD18C5}" DurationType="OneShot" DurationMin="1.4716076" DurationMax="1.4716076">
+					<MediaRefs>
+						<MediaRef Id="704631604"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3710290936" Name="WE_Talk_fly" ObjectPath="\Events\Default Work Unit\Talking\WE_Talk_fly" GUID="{6E1AE562-AAC0-4AAB-9010-67D1A3E1D74A}" MaxAttenuation="3000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1012947416"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3419919031" Name="WE_Talk_stop_fly" ObjectPath="\Events\Default Work Unit\Talking\WE_Talk_stop_fly" GUID="{D73D59D6-0553-4325-8933-B40E52A8E45E}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1582446669" Name="WE_Tape_alles_robot" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_alles_robot" GUID="{ACDF4D5A-96B4-4A50-B569-C02FDD75AEE4}" DurationType="OneShot" DurationMin="1.3789375" DurationMax="1.3789375">
+					<MediaRefs>
+						<MediaRef Id="685159639"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="302958727" Name="WE_Tape_balmachine" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_balmachine" GUID="{301BDCF8-37A0-4A11-8C87-2F13825DB660}" DurationType="OneShot" DurationMin="1.2213541" DurationMax="1.2213541">
+					<MediaRefs>
+						<MediaRef Id="837266129"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="1168037847" Name="WE_Tape_boot" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_boot" GUID="{6C3361FF-F48D-4E15-9AD8-45A41A3EEDA4}" DurationType="OneShot" DurationMin="1.2549791" DurationMax="1.2549791">
+					<MediaRefs>
+						<MediaRef Id="767852032"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="1366685077" Name="WE_Tape_eten" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_eten" GUID="{0736CD33-0BCF-42B6-BD59-313D907CDB34}" DurationType="OneShot" DurationMin="1.2829584" DurationMax="1.2829584">
+					<MediaRefs>
+						<MediaRef Id="870106872"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="818604743" Name="WE_Tape_gelddrone" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_gelddrone" GUID="{99465656-089E-477A-92CF-A71B39D6B270}" DurationType="OneShot" DurationMin="1.208" DurationMax="1.208">
+					<MediaRefs>
+						<MediaRef Id="821395337"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="1511117501" Name="WE_Tape_Kippie" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_Kippie" GUID="{4C47A51A-CDDF-4CCA-A422-797AE1D4A3BE}" DurationType="OneShot" DurationMin="0.5208542" DurationMax="0.5208542">
+					<MediaRefs>
+						<MediaRef Id="83356613"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="2525504414" Name="WE_Tape_kleermaker" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_kleermaker" GUID="{1E7F3984-223A-4F40-9A51-3B72A180B264}" DurationType="OneShot" DurationMin="1.4195625" DurationMax="1.4195625">
+					<MediaRefs>
+						<MediaRef Id="395799149"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="2246477576" Name="WE_Tape_konijneten" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_konijneten" GUID="{A23ECBCD-523F-4753-AD1C-5AB4885D673C}" DurationType="OneShot" DurationMin="1.7216458" DurationMax="1.7216458">
+					<MediaRefs>
+						<MediaRef Id="993643364"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="3203406395" Name="WE_Tape_lego_drone" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_lego_drone" GUID="{998F8BCA-1338-4BA3-9F9D-9E9EE2911A29}" DurationType="OneShot" DurationMin="1.5507292" DurationMax="1.5507292">
+					<MediaRefs>
+						<MediaRef Id="564535713"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="972581639" Name="WE_Tape_Leuker" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_Leuker" GUID="{2254C0ED-8A2E-4FC3-9E6F-109E074ED63C}" DurationType="OneShot" DurationMin="0.9492292" DurationMax="0.9492292">
+					<MediaRefs>
+						<MediaRef Id="147992142"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="775045262" Name="WE_Tape_magic_grijper" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_magic_grijper" GUID="{EBAA1C3D-EB0F-4765-AC22-1BC62A73F064}" DurationType="OneShot" DurationMin="1.4771667" DurationMax="1.4771667">
+					<MediaRefs>
+						<MediaRef Id="701980602"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="2181250850" Name="WE_Tape_matti" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_matti" GUID="{ADD44BEF-9EE8-45B1-9DE8-83D5DD79862C}" DurationType="OneShot" DurationMin="1.7553959" DurationMax="1.7553959">
+					<MediaRefs>
+						<MediaRef Id="795252094"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="3576932711" Name="WE_Tape_pickup" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_pickup" GUID="{D7EC17AE-E707-4C34-9B81-BE3A39547C55}" DurationType="OneShot" DurationMin="1.4953125" DurationMax="1.4953125">
+					<MediaRefs>
+						<MediaRef Id="363823850"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4083929954" Name="WE_Tape_snoepkraam" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_snoepkraam" GUID="{8D6ED5BF-4A80-47B3-AF9D-5AF9F0587904}" DurationType="OneShot" DurationMin="1.014125" DurationMax="1.014125">
+					<MediaRefs>
+						<MediaRef Id="843176757"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="3312805528" Name="WE_Tape_taken" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_taken" GUID="{8059F821-E488-4275-B211-8F1F2E611490}" DurationType="OneShot" DurationMin="1.3529583" DurationMax="1.3529583">
+					<MediaRefs>
+						<MediaRef Id="844208652"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="4079762346" Name="WE_Tape_vrago" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_vrago" GUID="{E351AD53-2578-4060-ADC2-1572ACB5B922}" DurationType="OneShot" DurationMin="0.8440625" DurationMax="0.8440625">
+					<MediaRefs>
+						<MediaRef Id="22348095"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="3334512259" Name="WE_Tape_water_drone" ObjectPath="\Events\Default Work Unit\Tapes\WE_Tape_water_drone" GUID="{C28D6E18-1024-4BA4-9060-9B476FC1D94A}" DurationType="OneShot" DurationMin="1.3693125" DurationMax="1.3693125">
+					<MediaRefs>
+						<MediaRef Id="879010749"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="600781113"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="761043447" Name="WE_Tennis_hit" ObjectPath="\Events\Default Work Unit\Ballmachine\WE_Tennis_hit" GUID="{3276D5BF-5A20-43B3-85F4-CA8D4B5F0E90}" MaxAttenuation="18000" DurationType="OneShot" DurationMin="1.1674225" DurationMax="1.7591027">
+					<MediaRefs>
+						<MediaRef Id="26963495"/>
+						<MediaRef Id="1031108474"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3459518843" Name="WE_Tennis_physics" ObjectPath="\Events\Default Work Unit\Ballmachine\WE_Tennis_physics" GUID="{1528EB62-0206-4BD6-907D-ABE2B8C9F075}" MaxAttenuation="2500" DurationType="OneShot" DurationMin="0.22382072" DurationMax="0.28237042">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="489888880" Id="3599861390" GUID="{15A21221-8A36-462A-895C-A0947F02E328}"/>
+							<MediaRefs>
+								<MediaRef Id="1000488986"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="489888880" Id="2849147824" GUID="{03B48CD6-1870-4B49-9CBF-24DD4C0AA7A5}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="208094763"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2051142276" Name="WE_Test" ObjectPath="\Events\Default Work Unit\WE_Test" GUID="{901FDF42-E883-4A73-B9B0-873B213862A2}" DurationType="OneShot" DurationMin="0.58324766" DurationMax="0.5968805">
+					<MediaRefs>
+						<MediaRef Id="253062284"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4023058756" Name="WE_Toyball_grab" ObjectPath="\Events\Default Work Unit\Toyball\WE_Toyball_grab" GUID="{A55B5009-DF61-455A-AABE-1B6D53FE1A78}" MaxAttenuation="900" DurationType="OneShot" DurationMin="0.4428117" DurationMax="0.6278406">
+					<MediaRefs>
+						<MediaRef Id="43103157"/>
+						<MediaRef Id="495596224"/>
+						<MediaRef Id="637791878"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2380250881" Name="WE_Toyball_rise" ObjectPath="\Events\Default Work Unit\Toyball\WE_Toyball_rise" GUID="{96D1912D-C061-4E83-83DA-43D4E6F52B75}" MaxAttenuation="900" DurationType="OneShot" DurationMin="1.2135677" DurationMax="1.9264188">
+					<MediaRefs>
+						<MediaRef Id="1062432846"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2428482884" Name="WE_Toyball_rise_stop" ObjectPath="\Events\Default Work Unit\Toyball\WE_Toyball_rise_stop" GUID="{86EE7603-B17F-48D9-A7E2-E8AD8EAC7497}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3171213224" Name="WE_Trampoline_jump" ObjectPath="\Events\Default Work Unit\WE_Trampoline_jump" GUID="{340E68DA-43B1-4548-AD55-FE302D7CE2C6}" DurationType="OneShot" DurationMin="0.33636048" DurationMax="0.8355185">
+					<MediaRefs>
+						<MediaRef Id="253062284"/>
+						<MediaRef Id="334915824"/>
+						<MediaRef Id="674588885"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1820608883" Name="WE_UI_cancel" ObjectPath="\Events\Default Work Unit\UI\WE_UI_cancel" GUID="{AC2B7814-9501-4AD2-BE45-25C41FDC28C5}" DurationType="OneShot" DurationMin="0.3625625" DurationMax="0.3625625">
+					<MediaRefs>
+						<MediaRef Id="678766633"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3685748131" Name="WE_UI_confirm" ObjectPath="\Events\Default Work Unit\UI\WE_UI_confirm" GUID="{EF9BF9C1-1572-4D06-B915-CF4971949FF8}" DurationType="OneShot" DurationMin="0.39122915" DurationMax="0.39122915">
+					<MediaRefs>
+						<MediaRef Id="655748532"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3664031989" Name="WE_UI_hover" ObjectPath="\Events\Default Work Unit\UI\WE_UI_hover" GUID="{B81325A6-F2DB-4DB9-962E-515434E6F25A}" DurationType="OneShot" DurationMin="0.06667601" DurationMax="0.068629764">
+					<MediaRefs>
+						<MediaRef Id="161047946"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="88519908" Name="WE_UI_Turn" ObjectPath="\Events\Default Work Unit\UI\WE_UI_Turn" GUID="{BA3D4F9A-9748-476A-A8DF-669B17473BEC}" DurationType="OneShot" DurationMin="0.32431898" DurationMax="0.3598545">
+					<MediaRefs>
+						<MediaRef Id="63050617"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1569024068" Name="WE_Wasp_dissapear" ObjectPath="\Events\Default Work Unit\Wasp\WE_Wasp_dissapear" GUID="{110A2BF9-9F47-435B-A1F8-26A925D8A9A1}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="161743191" Name="WE_Wasp_hit" ObjectPath="\Events\Default Work Unit\Wasp\WE_Wasp_hit" GUID="{E8DB2C99-9904-4EC9-87F8-A71FB22F2C2B}" MaxAttenuation="1200" DurationType="OneShot" DurationMin="1.9333541" DurationMax="2.0025625">
+					<MediaRefs>
+						<MediaRef Id="122158392"/>
+						<MediaRef Id="439709404"/>
+						<MediaRef Id="524742747"/>
+						<MediaRef Id="857893171"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="76654982" Name="WE_Wasp_idle" ObjectPath="\Events\Default Work Unit\Wasp\WE_Wasp_idle" GUID="{11268E2D-766F-47A6-A3C8-CD0B9F133A02}" MaxAttenuation="1900" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="670622573"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1104583892" Name="RTPC_Wasp_Agro" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Wasp_Agro" GUID="{A03EF9E7-17DF-4EA2-A452-328EF16CB24D}"/>
+				<GameParameter Id="1193280819" Name="RTPC_Load" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Load" GUID="{042359DA-BCD0-4C99-AEB1-15857579679D}"/>
+				<GameParameter Id="1916511250" Name="RTPC_Ball_velocity" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Ball_velocity" GUID="{C88C0E36-8BBC-43D9-835C-94B7B8252545}"/>
+				<GameParameter Id="2204949715" Name="RTPC_Talking_velocity" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Talking_velocity" GUID="{773D5F0F-A05C-45B9-9D35-A8CD675957AD}"/>
+				<GameParameter Id="2220945564" Name="RTPC_Trampoline_height" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Trampoline_height" GUID="{156951DB-8B73-4577-A120-E12EA7CE897B}"/>
+				<GameParameter Id="2420400255" Name="RTPC_Drone_speed" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Drone_speed" GUID="{959D4FE7-3A01-497E-8B2B-C18AC260388F}"/>
+				<GameParameter Id="3244594674" Name="RTPC_Ship_pitch" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Ship_pitch" GUID="{E5D4722F-C5D3-4F82-9E61-5ABCA9D110C9}"/>
+				<GameParameter Id="3710488410" Name="RTPC_Roll_speed" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Roll_speed" GUID="{77AEC944-2D0A-42A5-B6AC-7FA4F563F300}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{5FECB6D8-8BF5-4CF5-AF30-6A4085E69110}">
+					<States>
+						<State Id="172549753" Name="Arcade2" ObjectPath="\States\Default Work Unit\Music\Arcade2" GUID="{21C4386D-830B-424F-8B4C-40E3DEDC27FC}"/>
+						<State Id="579523862" Name="Explore" ObjectPath="\States\Default Work Unit\Music\Explore" GUID="{30466D7B-183B-4324-BB82-3673551BAF55}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{F510D029-B2B2-47CB-B490-92FA03CEAD88}"/>
+						<State Id="1946377065" Name="Arcade" ObjectPath="\States\Default Work Unit\Music\Arcade" GUID="{91E25F15-098C-4325-967B-9AF416A726A0}"/>
+						<State Id="3041563226" Name="Silence" ObjectPath="\States\Default Work Unit\Music\Silence" GUID="{7434E803-486F-4858-A6DB-54C8C97F5CB0}"/>
+						<State Id="3373695666" Name="Shooting" ObjectPath="\States\Default Work Unit\Music\Shooting" GUID="{0EC21079-3D73-4569-AA93-DF95E192F329}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="489888880" Name="Switch_Physics_impact" ObjectPath="\Switches\Default Work Unit\Switch_Physics_impact" GUID="{C4A1A275-1692-42FC-B051-C6EDFD8624F9}">
+					<GameParameterRef Id="1916511250"/>
+					<Switches>
+						<Switch Id="670602561" Name="Soft" ObjectPath="\Switches\Default Work Unit\Switch_Physics_impact\Soft" GUID="{E745D8A2-3ACB-47FF-942A-CF1A935581D7}"/>
+						<Switch Id="2849147824" Name="Medium" ObjectPath="\Switches\Default Work Unit\Switch_Physics_impact\Medium" GUID="{03B48CD6-1870-4B49-9CBF-24DD4C0AA7A5}"/>
+						<Switch Id="3599861390" Name="Hard" ObjectPath="\Switches\Default Work Unit\Switch_Physics_impact\Hard" GUID="{15A21221-8A36-462A-895C-A0947F02E328}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{97063172-B573-496E-8654-E3997C6C44C2}">
+					<Switches>
+						<Switch Id="660835419" Name="Plastic" ObjectPath="\Switches\Default Work Unit\Surface\Plastic" GUID="{00C0D9F4-B54C-42EC-B3DA-4DDDFC5C6AE4}"/>
+						<Switch Id="2144363834" Name="Rock" ObjectPath="\Switches\Default Work Unit\Surface\Rock" GUID="{F3F695B1-9F65-48A2-9568-EBFED171563A}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Surface\Metal" GUID="{1C312548-5BC5-4005-8F15-E36BC90D073C}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surface\Grass" GUID="{5B55E8D1-A694-4921-9439-4D29310F34BF}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="2680115196" Name="Cannon_turn" ObjectPath="\Triggers\Default Work Unit\Cannon_turn" GUID="{73083026-2890-4023-AD2D-4F16E4AED570}"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A0C5CFA9-A611-2B5D-67CC-9876A9DF34CB}</FileHash>
+</SoundBanksInfo>

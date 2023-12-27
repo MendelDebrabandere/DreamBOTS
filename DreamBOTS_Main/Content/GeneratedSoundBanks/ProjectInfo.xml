@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="DreamBots_WwiseProject" GUID="{205B6617-1163-40F1-B520-63B9197A91E0}" Generator="2022.1.7.8290"/>
+	<CacheRoot>../../../../ArtAssets/Audio/DreamBots_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{9D989625-D050-4CF4-A592-BF7ACB72F8F7}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
+		<Platform Name="Windows" GUID="{3CDC1914-2975-4A72-8E7B-E4A1C8001935}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{9E74EDAA-B7A8-4CB5-936A-BDDB80996FBE}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{46824D96-177F-6FF5-B46C-46465C13D831}</FileHash>
+</ProjectInfo>

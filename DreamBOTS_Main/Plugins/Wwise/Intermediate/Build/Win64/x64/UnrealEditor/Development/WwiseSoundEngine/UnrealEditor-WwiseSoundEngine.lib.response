@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-WwiseSoundEngine.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\mende\Perforce\Mendel-Workspace\grpprj04\Main\DreamBots\Intermediate\Build\Win64\x64\DreamBotsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"C:\Users\mende\Perforce\Mendel-Workspace\grpprj04\Main\DreamBots\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSoundEngine\Module.WwiseSoundEngine.cpp.obj"
+"C:\Users\mende\Perforce\Mendel-Workspace\grpprj04\Main\DreamBots\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSoundEngine\Default.rc2.res"
+/OUT:"C:\Users\mende\Perforce\Mendel-Workspace\grpprj04\Main\DreamBots\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSoundEngine\UnrealEditor-WwiseSoundEngine.lib"
