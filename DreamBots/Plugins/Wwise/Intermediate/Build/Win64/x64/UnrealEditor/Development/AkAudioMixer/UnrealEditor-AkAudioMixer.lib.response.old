@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-AkAudioMixer.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\mende\OneDrive\Bureaublad\Dev\DreamBots\Intermediate\Build\Win64\x64\DreamBotsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"C:\Users\mende\OneDrive\Bureaublad\Dev\DreamBots\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudioMixer\Module.AkAudioMixer.cpp.obj"
+"C:\Users\mende\OneDrive\Bureaublad\Dev\DreamBots\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudioMixer\Default.rc2.res"
+/OUT:"C:\Users\mende\OneDrive\Bureaublad\Dev\DreamBots\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudioMixer\UnrealEditor-AkAudioMixer.lib"

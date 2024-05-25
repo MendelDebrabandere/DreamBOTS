@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-WwiseProjectDatabase.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\mende\Perforce\Mendel-Workspace\grpprj04\Dev\DreamBots\Intermediate\Build\Win64\x64\DreamBotsEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"C:\Users\mende\Perforce\Mendel-Workspace\grpprj04\Dev\DreamBots\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProjectDatabase\Module.WwiseProjectDatabase.cpp.obj"
+"C:\Users\mende\Perforce\Mendel-Workspace\grpprj04\Dev\DreamBots\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProjectDatabase\Default.rc2.res"
+/OUT:"C:\Users\mende\Perforce\Mendel-Workspace\grpprj04\Dev\DreamBots\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProjectDatabase\UnrealEditor-WwiseProjectDatabase.lib"

@@ -1,0 +1,47 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	489888880	Switch_Physics_impact			\Default Work Unit\Switch_Physics_impact	
+
+Switch	ID	Name	Switch Group			Notes
+	670602561	Soft	Switch_Physics_impact			
+	2849147824	Medium	Switch_Physics_impact			
+	3599861390	Hard	Switch_Physics_impact			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3839992303	GameStage			\Default Work Unit\GameStage	
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	20886966	Lego	GameStage			
+	666586255	Kippie	GameStage			
+	748895195	None	GameStage			
+	758863303	Money	GameStage			
+	1194846792	Toyball	GameStage			
+	1291433366	Base	GameStage			
+	1334157877	Clothing	GameStage			
+	1795374432	Cynematic	GameStage			
+	1857115720	Wasp	GameStage			
+	3373695666	Shooting	GameStage			
+	3411621852	Cleaning	GameStage			
+	172549753	Arcade2	Music			
+	579523862	Explore	Music			
+	748895195	None	Music			
+	1946377065	Arcade	Music			
+	3041563226	Silence	Music			
+	3373695666	Shooting	Music			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	694692527	VFX			\Default Work Unit\Master Audio Bus\VFX	
+	702482391	Game			\Default Work Unit\Master Audio Bus\Game	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	351821732	Gain (Custom)	Wwise Gain			
+	466003022	Meter (Custom)	Wwise Meter			
+	912015640	Compressor (Custom)	Wwise Compressor			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
